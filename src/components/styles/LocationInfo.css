@@ -1,0 +1,28 @@
+.card-location {
+display: flex;
+flex-direction: column;
+color: white;
+margin-bottom: 20px;
+margin-top: 15px;
+width: 100%;
+}
+
+.card-location__name{
+    text-align: center;
+    font-size: 2rem;
+}
+.card-location__list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px;
+    flex-wrap: wrap;
+    gap:10px;
+}
+
+.card-location__item-type,
+.card-location__item-dimension,
+.card-location__item-population{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
